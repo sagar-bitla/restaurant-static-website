@@ -1,0 +1,412 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background: pink;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+.nav-link{
+    color: #fff;
+}
+.header_logo{
+    height: 70px;
+    width: 70px;
+    
+}
+.header_logo img{
+    height: 100%;
+    width: 100%;
+}
+.nav-item{
+    font-family:'Libre Baskerville', serif;
+    font-size: 24px;
+}
+.dropdown-item{
+    background-color: pink;
+}
+.carousel-item{
+    height: 37rem;
+    margin-top: 82px;
+   
+}
+.carousel-caption {
+    top: 26%;
+    right: unset;
+    left: 70px;
+}
+.caption-detail h5{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    font-weight: 300px;
+    color: red  ;
+}
+.caption-detail p{
+    font-family: cursive;
+    color: rgb(138, 47, 77);
+    font-size: 40px;
+}
+.btn-menu{                                              /* card start */
+        border: 2px solid midnightblue;
+        padding: 10px;
+}
+
+
+.card-food{                                    
+    box-shadow: 10px 10px 25px;
+}
+.card-food:hover{
+    transform: scale(1.07);
+}
+.card-body a{
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+    
+}
+.card-review{
+    border: none;
+    
+}
+.card-text{
+    font-family: cursive;
+    }
+    .explore h1{
+        margin-top: 68px;
+    }                          /* review ending */
+
+    /* about us----------------------------------------------------------- */
+
+    .about-food h1{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        color: red;
+        font-size: 80px;
+        
+    }
+    .about-food p{
+        font-family: cursive;
+        text-align: center;
+        color: rgb(138, 47, 77);
+        font-size: 30px;
+    }
+    .about img{
+        height: 123px;
+    margin-top: 44px;
+
+    }
+    .food-head h2{
+        margin-top: 100px;
+        font-size: 43px;
+        padding-left: 96px;
+        font-family: revert;
+
+    }
+    .para-food p{
+        margin-top: 40px;
+    padding-left: 67px;
+    font-size: 21px;
+    color:black;
+    }
+    .about-payment-deliver{
+        padding-left: 82px;
+     margin-top: 45px;
+     display: flex;
+    justify-content: space-between;
+    }
+
+    .easy-payment{
+        border: 2px solid;
+        padding: 10px ;
+        box-shadow: 2px 2px 8px black;
+        text-align: center;
+
+    }
+    .easy-payment:hover{
+        background-color: pink;
+        color: #fff;
+    }
+    .easy-deliver{
+        border: 2px solid;
+        padding: 10px ;
+        box-shadow: 2px 2px 8px black;
+        text-align: center;
+
+    }
+    .easy-deliver:hover{
+        background-color: pink;
+        color:white;
+    }
+    .covid-19{
+        border: 2px solid;
+        padding: 10px ;
+        box-shadow: 2px 2px 8px black;
+        text-align: center;
+
+    }
+    .covid-19:hover{
+        background-color: pink;
+        color:white;
+    }
+    .about h1{
+        margin-top: 83px;
+    }
+    
+    
+
+    /*-----------------------------------------aout us---------------end--------------*/
+
+    /*-----------------footer start-------------------------*/
+
+    .sci{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    .footer-box{
+        background-color: lightpink;
+        padding: 25px;
+    }
+    .sec-aboutus h2{
+        text-align: center;
+    }
+    .sec-aboutus p{
+        text-align: center;
+    }
+    .sec-quicklinks{
+        padding-left: 50px;
+    }
+    .copyrights{
+        text-align: center;
+    }
+
+
+    .sci li{
+        background: #c6023a;
+        width: 40px;
+        height:40px;
+        border-radius: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .sci li i{
+        color: #fff;
+    }
+    .sci :hover{
+        background: rgb(255, 192, 221);
+        color: #000;
+    }
+
+    .sec-quicklinks li {
+        list-style: none;
+    }
+    .sec-quicklinks li a {
+        color: #000;
+    }
+    .sec-orderlinks li  {
+        list-style: none;
+    }
+    .sec-orderlinks li a {
+        color: #000;
+    }
+    s .sec-contact li {
+        list-style: none;
+    }
+    s .sec-contact li a {
+        color: #000;
+    }
+
+    /*--------------------------footer end------------------*/
+
+    /*---------------------FAQ start------------------------*/
+  
+    .faq-title{
+        margin-top: 95px;
+        text-align: center;
+    }
+    .faq-title h1{
+        font-family: cursive;
+    }
+    .accordion-button{
+        border: 1px solid deeppink;
+    }
+    .accordion-item h2 button{
+        
+        text-align: left;
+        text-decoration: none;
+        position: relative;
+        -webkit-box-shadow: 0 3px 10px -2px pink!important ;
+        box-shadow: 0 3px 10px -2px pink!important ;
+        border-radius: 0;
+    }
+    .accordion-item h2 button:hover{
+        text-decoration: none;
+        -webkit-box-shadow: 0 3px 10px -2px rgb(188, 25, 52)!important ;
+        box-shadow: 0 3px 10px -2px rgb(126, 25, 42)!important ;
+
+    }
+   /*------------------------Faq Ending------------------*/
+
+   /*----------------------contact us-------------------*/
+
+.contact-title{
+    margin-top: 95px;
+    text-align: center;
+}
+.contact-title h1{
+    font-family: cursive;
+}
+.iframe-map iframe{
+    width: 29rem;
+}
+
+.contact-table-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact-table-form .inputBoxContact{
+    margin: 4px;
+    }
+
+
+    /*----------------------menu start------------------*/
+
+    .menu-title{
+        margin-top: 95px;
+        text-align: center;
+    }
+    .menu-title h1{
+        font-family: cursive;
+        color: deeppink;
+    }
+    .card-menu{                                    
+        box-shadow: 10px 10px 25px;
+    }
+    .card-menu:hover{
+        transform: scale(1.07);
+    }
+ /*----------------------order start------------------*/
+
+ .order-title{
+    margin-top: 95px;
+    text-align: center;
+}
+.order-title h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+.order form{
+    max-width:90rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:.1rem solid rgba(0,0,0,.2);
+    background:#fff;
+    padding:1.5rem;
+    margin:0 auto;
+}
+
+.order form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order form .inputBox .input{
+    width:49%;
+}
+
+.order form .inputBox .input span{
+    display:block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
+
+.order form{
+    max-width:90rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:.1rem solid rgba(0,0,0,.2);
+    background:#fff;
+    padding:1.5rem;
+    margin:0 auto;
+}
+
+.order form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order form .inputBox .input{
+    width:49%;
+}
+
+.order form .inputBox .input span{
+    display:block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
+
+.order form .inputBox .input input,
+.order form .inputBox .input textarea{
+    background:#eee;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width:100%;
+}
+
+.order form .inputBox .input input:focus,
+.order form .inputBox .input textarea:focus{
+    border:.1rem solid var(--green);
+}
+
+.order form .inputBox .input textarea{
+    height:20rem;
+    resize: none;
+}
+
+.order form .btn{
+    margin-top: 0;
+}
+
+.order form .inputBox .input textarea{
+    height:20rem;
+    resize: none;
+}
+
+.order form .btn{
+    margin-top: 0;
+    color: blue;
+    background-color:deeppink;
+    
+
+}
+
+/*----work start----*/
+
+.worksection{
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:770px){
+    .header_navbar{
+        width: 100%;
+    }
+}
